@@ -31,27 +31,27 @@ To run the api:
 * run bin/rails server
 * In a browser
   - To see all videos:
-    > localhost:3000/videos
+    ``` localhost:3000/videos
   - To query by a song name (replace <song name> with the song name):
-    > localhost:3000/videos?song=<song name>
+    ``` localhost:3000/videos?song=<song name>
   - To query by a song name (replace <artist name> with the artist name):
-    > localhost:3000/videos?artist=<artist name>
+    ``` localhost:3000/videos?artist=<artist name>
   - To query by a song name (replace <city name> with the city name):
-    > localhost:3000/videos?artist=<city name>
+    ``` localhost:3000/videos?artist=<city name>
 
 * In a client app
   - To see all videos:
     Link: localhost:3000/videos
 
   - To query by a song name (replace <song name> with the song name, spaces replaced by %20):
-    > localhost:3000/videos?song=<song%20name>
-    > eg: localhost:3000/videos?song=Teneke%20Trampet
+    ``` localhost:3000/videos?song=<song%20name>
+    ``` eg: localhost:3000/videos?song=Teneke%20Trampet
   - To query by a artist name (replace <artist name> with the artist name, spaces replaced by %20)):
-    > localhost:3000/videos?artist=<artist%20name>
-    > eg: localhost:3000/videos?artist=Holly%20Miranda
+    ``` localhost:3000/videos?artist=<artist%20name>
+    ``` eg: localhost:3000/videos?artist=Holly%20Miranda
   - To query by a city name (replace <city name> with the city name, spaces replaced by %20)):
-    > localhost:3000/videos?artist=<city name>
-    > eg: localhost:3000/videos?city=Chicago
+    ``` localhost:3000/videos?artist=<city name>
+    ``` eg: localhost:3000/videos?city=Chicago
 
   - Response: Status: 200 OK
   - One or more JSON objects containing:
